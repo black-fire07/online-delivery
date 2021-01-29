@@ -1,0 +1,502 @@
+body{
+    font-family: 'Baloo 2', cursive;
+}
+::selection{
+    
+    background-color: black;
+}
+#nav{
+    top: 0;
+    width: 100%;
+    position: sticky;
+    z-index: 1;   
+    background-color: rgba(0, 98, 0, 0.3);
+
+}
+
+#nav a{
+    color:white;
+    font-size: 1.2rem;
+
+}
+#nav a:hover{
+    transform: scale(1.2);
+    color: wheat;
+    transition: all .2s;
+}
+
+.collapse ul{
+    text-align: center;
+}
+
+.navbar-brand{
+    letter-spacing: 0.5rem;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar-brand{
+        letter-spacing: 0.25rem;
+        padding-left: 5px;
+    }
+    .perks{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .card img{
+        width: 1%;
+        height: 1%;
+    }
+    .card{
+        margin: 10px auto;
+    }
+    .row{    
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .navbar button{
+        color: white;
+        border: 3px solid white!important;
+    }
+    .classdiv2ul{
+        margin: auto;
+        flex: 50%;
+    }
+    .toggler{
+        background-color: white;
+        color: white;
+    }
+    #nav{
+        background-color: transparent;
+        
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .collapse{
+        padding-left: 55%;
+        margin-right: 10%;
+        
+    }
+    .collapse li{
+        margin-left: 50px;
+    }
+    #nav{
+        background-color: transparent;
+        
+    }
+}
+.outerbanner{
+    top: 0;
+    background: url("pizza.jpg") center/cover no-repeat;
+    min-height: calc(70vh - 66px);
+    
+}
+
+/* .imag{
+    position: fixed;
+	z-index: -1;
+	opacity: 0.8;
+    height: 100vh;
+    margin-top: 0;
+	width: 100%;
+} */
+.banner{
+    
+    margin-top: 80px;
+    text-align: center;
+    
+}
+.banner h1{
+    font-size: 3em;
+    color:rgb(46, 37, 37)
+}
+
+
+
+/* Footer  */
+.row2 {
+    margin-top: 50px;
+}
+
+.row2 div {
+    text-align: center;
+    /* border: 2px solid green; */
+}
+
+.row2 .classdiv2ul ul {
+    margin-top: 10px;
+    font-size: 0.8em;
+    padding-right: 28px;
+    color: darkolivegreen;
+    list-style: none;
+    
+   
+}
+
+
+
+.styleLogo {
+    text-align: center;
+    font-family: monospace;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-size: 28px;
+    /* border: 2px solid yellow; */
+}
+
+.flagDiv {
+    text-align: right;
+    padding-top: 5px;
+}
+
+.myBtn {
+
+    background-color: white;
+    width: 110px;
+}
+
+.myBtn i {
+    padding-right: 4px;
+    font-size: 20px;
+}
+
+.indFlag {
+    width: 40px;
+    height: 20px;
+    padding-right: 10px;
+}
+
+.row1 {
+    margin-top: 30px;
+}
+
+.row3 {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.row20 {
+
+    justify-content: center;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    display: flex;
+
+}
+
+.row4 {
+
+    /* border: 2px solid black; */
+    justify-content: center;
+    background-color: black;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.row4 a i {
+    font-size: 24px;
+    /* border: 2px solid black; */
+    border-radius: 60%;
+    padding: 4px;
+    margin: 4px 8px;
+    transition: all .5s;
+    color: yellow;
+}
+
+.row4 a i:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+.row20 a i {
+    font-size: 24px;
+    border: 2px solid yellow;
+    border-radius: 60%;
+    padding: 4px;
+    margin: 4px 8px;
+    transition: all .5s;
+    color: yellow;
+}
+
+.row20 a i:hover {
+    transform: scale(1.2);
+    color: white;
+}
+
+.row5 {
+    margin-top: 20px;
+    padding: 4px;
+    /* border: 2px solid black; */
+}
+
+.row5 .gPlayBtn {
+    text-align: center;
+}
+
+.gPlayBtn button {
+    color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    width: 150px;
+    background-color: rgb(12, 71, 180);
+    transition: all .8s;
+}
+.gPlayBtn button:hover {
+    background-color: rgb(12, 12, 12);
+    transform: scale(.8);
+}
+
+.gPlayBtn button i {
+    color: white;
+    padding-right: 4px;
+    padding-top: 2px;
+    font-size: 20px;
+}
+
+.heading{
+    margin: 25px 0;
+}
+.perks{
+    margin: 65px auto;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.card{
+    text-align: center;
+    border: none;
+    background: transparent;
+}
+.card img{
+    height: 30%;
+    width: 60%;
+    margin: auto;
+}
+
+.card a:hover{
+    transform: scale(0.8);
+}
+.img1Css {
+    transition: transform 1s;
+}
+
+.img1Css:hover {
+    transform: scale(.9);
+}
+
+.gifBox {
+    height: 210px;
+    /* border: 2px solid black; */
+    position: relative;
+    margin: 30px 0;
+
+}
+
+.gifBox img {
+    height: 200px;
+    width: 200px;
+    animation: waiterMove 6s infinite linear;
+    position: absolute;
+    padding: 10px auto;
+
+}
+
+@keyframes waiterMove {
+    0% {
+        left: 0%;
+    }
+
+    100% {
+        left: 80%;
+    }
+}
+
+
+
+/* carousel  */
+
+h1 {
+    text-align: center;
+    font-family: var(--font-1);
+    font-size: 35px;
+    text-decoration: underline;
+  }
+  
+  .slider-container {
+    display: block;
+    margin: 0 auto;
+    min-height: 390px;
+    height: 50%;
+    width: 90%;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px 10px 40px 10px;
+    overflow: hidden;
+  }
+  
+  .slider-container .slide {
+    display: none;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    background: white;
+    font-size: 40px;
+    font-family: var(--font-1);
+    text-align: center;
+    align-items: center;
+  }
+  
+  .slider-container .slide img {
+    heigth: auto;
+    width: 100%;
+  }
+  
+  .slider-container .active {
+    display: block;
+  }
+  
+  .control-container {
+    display: inline-flex;
+    width: 100%;
+  }
+  
+  .control-container button {
+    border: none;
+    border-radius: 50%;
+    background: white;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    outline: none;
+  }
+  
+  .control-container button:hover {
+    background: #ccc;
+  }
+  
+  .slide-indicator {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slide-indicator .indicator {
+    height: 20px;
+    width: 20px;
+    transition: all 0.5s ease;
+    background: #ccc;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 50%;
+  }
+  
+  .slide-indicator .indicator:hover {
+    background: darkgrey;
+  }
+  
+  .slide-indicator .active {
+    background: grey;
+  }
+
+
+
+  /* food search  */
+
+   #container123{
+    height: 50vh;
+    width: 60%;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .4) 50%, rgba(0, 0, 0, .2) 50%), url("https://cdn.pixabay.com/photo/2016/11/19/12/44/burgers-1839090_1280.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-right-radius: 60px;
+    box-shadow: 3px 7px 5px #888888;
+}
+  
+.child10 h2 {
+    font-size: 3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.child10{
+    padding-right: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child12{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child12 input {
+    font-size: 1.8em;
+    border: 2px solid black;
+    border-radius: 16px;
+    width: 90%;
+    margin-top: 5%;
+    margin-right: 55%;
+}
+
+.child15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.child15 button {
+    margin-right: 55%;
+    margin-top: 5%;
+    font-size: 1.5em;
+}
+/*
+.row {
+    /* border: 2px solid blue; */
+    /* max-width: 50%;
+} */
+@media (max-width:760px) {
+    .row{ 
+    /* border: 2px solid blue; */
+     max-width: 100%;
+}
+    .child10{
+        padding: 0;
+    }
+    .child12 input{
+        margin-right: auto;
+        margin-top: 10%;
+        font-size: medium;
+    }
+    .child15{
+        text-align: center;
+    }
+    .child15 button{
+        margin-top: 10%!important;
+        margin: auto;
+    }
+
+
+#container123{
+    
+    background-image: linear-gradient(to right, rgba(255, 255, 255, .4) 50%, rgba(255, 255, 255, .4) 50%), url("../css/burger.jpg");
+    width: 80%;
+    
+}
+}  
+
+.carousel{
+    background: url(../css/banner.jpg) center/cover no-repeat;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin: 30px;
+    border: 1px solid;
+  box-shadow: 5px 10px 8px 5px #888888;
+}
